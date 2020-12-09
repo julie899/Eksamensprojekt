@@ -56,3 +56,50 @@ body {
     clear: both;
     display: table;
   }
+  
+/* portfolio galleri styling */
+.portfolio-work h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Fredericka the Great', cursive;;
+    }
+    .img-area {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    
+    }
+    .single-img {
+        padding: 0 20px 20px;
+    }
+    .single-img img {
+        width: 400px;
+    }
+    .img-3 img {
+        width: 210px;
+        padding: 0 20px 20px;
+    }
+    .img-7 img {
+        width: 410px;
+    }
+    
+    .title {
+        color: grey;
+    }
+    .button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #34558b;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        text-decoration: none;
+      }
+      .button:hover {
+        background-color: #444;
+      }
